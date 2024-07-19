@@ -1,0 +1,2 @@
+{"basicSalary":2000,"className":"bbl.employees.Manager","id":1000,"department":"QA","factor":2}
+{"hours":150,"basicSalary":3000,"className":"bbl.employees.SalesPerson","id":1005,"department":"Audit","percent":1.5,"sales":600,"wage":200}
