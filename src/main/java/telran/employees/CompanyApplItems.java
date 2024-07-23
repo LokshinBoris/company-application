@@ -1,14 +1,10 @@
-package blll.employees;
+package telran.employees;
 
 import java.util.*;
 
-import bbl.employees.Company;
-import bbl.employees.Employee;
-import bbl.employees.Manager;
-import bbl.employees.SalesPerson;
-import bbl.employees.WageEmployee;
-import bbl.view.InputOutput;
-import bbl.view.Item;
+import telran.employees.*;
+import telran.view.InputOutput;
+import telran.view.Item;
 
 public class CompanyApplItems {
 	static Company company;

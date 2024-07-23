@@ -1,12 +1,12 @@
-package blll.employees;
+package telran.employees;
 
 import java.util.HashSet;
 import java.util.List;
 
-import bbl.employees.*;
+import telran.employees.*;
+import telran.io.Persistable;
+import telran.view.*;
 
-import bbl.io.Persistable;
-import bbl.view.*;
 
 
 
