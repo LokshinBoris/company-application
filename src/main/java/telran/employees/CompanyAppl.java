@@ -21,9 +21,15 @@ public class CompanyAppl {
 		} catch (Exception e) {
 			
 		}
+		HashSet<Long> idList=new HashSet<Long>();
+		for(Employee empl:company)
+		{
+			idList.add(empl.getId());
+		}
 		List<Item> companyItems =
 				CompanyApplItems.getCompanyItems(company,
-						new HashSet<String>(List.of("Audit", "Development", "QA")));
+						new HashSet<String>(List.of("Audit", "Development", "QA")), idList);
+		
 		companyItems.add(Item.of("Exit & save",
 				io -> ((Persistable)company).save(FILE_NAME), true));
 		companyItems.add(Item.ofExit());
